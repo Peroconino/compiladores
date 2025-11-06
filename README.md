@@ -46,7 +46,7 @@ pip install nome_do_pacote
 ```
 
 ### 📦 Dependências
-Caso este projeto tenha um arquivo requirements.txt, você pode instalar tudo de uma vez:
+Instalar todas as dependências de uma vez:
 ```bash
 pip install -r requirements.txt
 ```

@@ -1,5 +1,12 @@
-arquivo = open('teste.c', 'r')
+def readFile(fileName):
+    with open(fileName, 'r') as f:
+       for caractere in f:
+          print(caractere)
+ 
 
-conteudo = arquivo.read()
+def main():
+   readFile('teste.c')
 
-print(conteudo)
+if __name__ == "__main__":
+    main()
+
